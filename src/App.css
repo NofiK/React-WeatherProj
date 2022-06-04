@@ -92,7 +92,7 @@ body {
     font-size: 15px;
 }
 
-@media (min-width: 330px) and (max-width:500px) {
+@media (min-width: 355px) and (max-width:500px) {
     .weatherItem {
         width: 30%;
         margin: 20px;
@@ -100,61 +100,83 @@ body {
     }
     .addInput {
         margin: 5px 25px 10px 25px;
-        width: 60%;
+        width: 50%;
         font-size: 1.5rem;
         padding: 7px 0;
     }
     .addBtn {
         width: 25%;
-        padding: 10px;
         font-size: 22px;
         height: 50px;
+        float: right;
+        margin-right: 30px;
     }
 }
 
 
 /* ---------------- */
 
-@media (min-width: 230px) and (max-width:330px) {
+@media (min-width: 230px) and (max-width:355px) {
     .weatherItem {
         width: 30%;
-        margin: 20px;
+        margin: 15px;
         padding: 14px;
     }
     .addInput {
-        margin: 5px 25px 10px 25px;
-        width: 60%;
-        font-size: 1.5rem;
+        margin: 5px 40px 10px 25px;
+        width: 50%;
+        font-size: 1.3rem;
         padding: 7px 0;
     }
     .addBtn {
         width: 25%;
         padding: 10px;
-        font-size: 22px;
-        height: 50px;
+        font-size: 15px;
+        height: 40px;
+    }
+    .weatherIcons {
+        width: 100%;
+    }
+    .celsiusP {
+        font-size: 40px;
+        margin: 0 7px;
+    }
+    .celsiusIcon {
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
     }
 }
 
 @media (min-width: 500px) and (max-width:1000px) {
     .weatherItem {
         width: 30%;
+        margin: 15px;
+        padding: 14px;
     }
     .addInput {
-        margin: 10px 100px 10px 25px;
+        margin: 5px 40px 10px 25px;
         width: 50%;
-        font-size: 3rem;
+        font-size: 1.3rem;
         padding: 7px 0;
     }
     .addBtn {
-        background-color: rgb(253, 20, 74);
-        color: white;
-        border: 0;
-        width: 80px;
-        border-radius: 5px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-weight: bold;
+        width: 30%;
         padding: 10px;
         font-size: 15px;
+        height: 45px;
+    }
+    .weatherIcons {
+        width: 100%;
+    }
+    .celsiusP {
+        font-size: 40px;
+        margin: 0 7px;
+    }
+    .celsiusIcon {
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
     }
 }
 

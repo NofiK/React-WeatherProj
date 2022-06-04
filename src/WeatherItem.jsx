@@ -14,7 +14,7 @@ const WeatherItem = (props) => {
         {props.city.celsius}
         <TbTemperatureCelsius className="celsiusIcon" />
       </p>
-      <img src={imageURL} alt="" />
+      <img className="weatherIcons" src={imageURL} alt="" />
       <p className="weatherP">{props.city.weather}</p>
     </div>
   );
